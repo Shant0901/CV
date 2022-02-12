@@ -1,0 +1,119 @@
+#home{
+    background-color: lavender;
+    border-style: solid;
+    margin: 5px;
+    padding: 4px;
+
+}
+#q{
+    background-color: #f0ff82;
+    padding: 4px;
+    border-style: solid;
+    margin: 5px;
+}
+#contact{
+    border-style: solid;
+    padding: 4px;
+    margin: 5px;
+    background-color: lightcyan;
+
+}
+#a{
+    border-color: navy;
+    border-width: thick;
+    border-inline-color: navy;
+    border-inline-width: medium;
+    border-spacing: inherit;
+    margin-left: 60px;
+}
+#c{
+    border-color: navy;
+    border-width: thick;
+    border-inline-color: navy;
+    border-inline-width: medium;
+    border-spacing: inherit;
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+/* .a{
+    /* text-align: right; 
+    text-align: justify;
+}*/
+.b{
+    text-decoration: underline;
+}
+form input:focus{
+    outline-color: green;
+    margin: 5px;
+}
+form input{
+    margin: 2.5px;
+}
+
+#x:hover{
+    background-color: green;
+    color: black;
+}
+#l{
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+h2{
+    text-align: center;
+}
+th{
+    background-color: rgb(231, 165, 165);
+    text-align: center;
+}
+td{
+    background-color: lightblue;
+    text-align: center;
+} 
+/* body{
+    align-content: center;
+} */
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-color: rgba(151, 148, 145, 0.315);
+    display: flex;
+    justify-content: right;
+}
+
+.navbar #navlogo{
+    width: 100px;
+    padding: 5px;
+}
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    border: solid;
+    padding: 10px;
+    color: brown;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: rgb(228, 148, 44) ;
+    border: solid;
+    background-color: darkslategrey;
+}
+
+
+/* button :focus{
+    background-color: lightslategray;
+    text-decoration: linen;
+} */
+/* input type="submit" :hover{
+    background-color: lightslategray;
+    text-decoration: linen;
+} */
